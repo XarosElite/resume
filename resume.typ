@@ -78,10 +78,10 @@
 #project(
   role: "Maintainer",
   name: "Playhub",
-  url: "https://github.com/XarosElite/playhub"
+  url: "github.com/XarosElite/playhub"
 )
 - A Docker based full stack game server manager
-- See a ([Demo](jacobpoling.com/projects/playhub/)) and explenation on my site!
+- See a link(jacobpoling.com/projects/playhub/)[Demo] and explenation on my site!
 
 #project(
   role: "Contributor",
