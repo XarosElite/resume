@@ -81,7 +81,7 @@
   url: "github.com/XarosElite/playhub"
 )
 - A Docker based full stack game server manager
-- See a (#link("https://www.jacobpoling.com/projects/playhub/")[demo]) and explenation on my site!
+- See a (#link("https://www.jacobpoling.com/projects/playhub/")[Demo]) and explenation on my site!
 
 #project(
   role: "Contributor",
