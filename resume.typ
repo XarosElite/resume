@@ -22,6 +22,7 @@
 #align(center, "Active Security Clearance")
 
 == Education
+
 #edu(
   institution: "Wright State University",
   location: "Dayton, OH",
@@ -29,7 +30,7 @@
   degree: "Bachelor's of Computer Science",
   consistent: true
 )
-- Relevant Coursework: Data Structures, Calculus II,Computer Organization, Digital Systems and their Designs
+
 == Work Experience
 
 #work(
@@ -38,7 +39,7 @@
   company: "Altamira",
   dates: dates-helper(start-date: "May 2024", end-date: "Present"),
 )
-- Worked on a R&D project that integrates a computer vision model into a pipeline for a customer
+- Integrates computer vision R&D projects into scalable pipelines for various customers.
 - Helped lead an Internal Project to create a full stack web application that integrates a Computer Vision model to help a customer process their data. Stack included React TS, Flask, Golang, Docker, Docker Compose.
 
 #work(
@@ -49,18 +50,10 @@
     #dates-helper(start-date: "May 2022", end-date: "August 2022"),
     #dates-helper(start-date: "May 2023", end-date: "August 2023"),
   ],)
-- Wrote basic python scripts to format data for machine learning models
-- Trained a Word2Vec machine learning model and integrated it into a web application to plot it
-- Worked with a large Plotly Dash Web application to visualize data for a customer
-- Trained a Pix2Pix Computer Vision model to detect lines in a noisy scene
-
-#work(
-  title: "IT Intern",
-  location: "Marion, OH",
-  company: "Tri-Rivers Career Center",
-  dates: dates-helper(start-date: "May 2019", end-date: "December 2019"),
-)
-- Helped maintain the school's network connectivity, troubleshoot internet / network issues, update and maintain student laptops, make ethernet cable runs from networking closets to devices.
+- Wrote basic python scripts to format data for machine learning models.
+- Trained a Word2Vec machine learning model and integrated it into a web application to plot it.
+- Worked with a large Plotly Dash Web application to visualize data for a customer.
+- Trained a Pix2Pix Computer Vision model to detect lines in a noisy scene.
 
 #work(
   title: "Cats Help Desk",
@@ -72,15 +65,23 @@
 - Troubleshooted problems with laptops, accounts, passwords, etc.
 - Learned a great deal of problem solving skills at this job by helping students with their technical problems.
 
+#work(
+  title: "IT Intern",
+  location: "Marion, OH",
+  company: "Tri-Rivers Career Center",
+  dates: dates-helper(start-date: "May 2019", end-date: "December 2019"),
+)
+- Helped maintain the school's network connectivity, troubleshoot internet / network issues, update and maintain student laptops, make ethernet cable runs from networking closets to devices.
 
 == Projects
 
 #project(
   role: "Maintainer",
   name: "Playhub",
-  url: "jacobpoling.com/projects/playhub/",
+  url: "https://github.com/XarosElite/playhub"
 )
 - A Docker based full stack game server manager
+- See a ([Demo](jacobpoling.com/projects/playhub/)) and explenation on my site!
 
 #project(
   role: "Contributor",
