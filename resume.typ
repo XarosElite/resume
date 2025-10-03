@@ -47,7 +47,6 @@
   company: "Altamira",
   dates: [
     #dates-helper(start-date: "May 2022", end-date: "August 2022"),
-    ", ",
     #dates-helper(start-date: "May 2023", end-date: "August 2023"),
   ],)
 - Wrote basic python scripts to format data for machine learning models
