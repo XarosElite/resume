@@ -12,6 +12,12 @@
       devShells = forAllSystems (pkgs: {
         default = pkgs.mkShell {
           packages = [ pkgs.typst ];
+          # Fonts used by the themes in ./themes
+          TYPST_FONT_PATHS = pkgs.lib.concatMapStringsSep ":" (f: "${f}/share/fonts") [
+            pkgs.inter
+            pkgs.ibm-plex
+            pkgs.jetbrains-mono
+          ];
         };
       });
     };
