@@ -90,7 +90,6 @@
 - See a #link("https://www.jacobpoling.com/projects/playhub/")[demo] and explanation on my site.
 
 #project(
-  role: "Contributor",
   name: "Self-Hosted Proxmox and Kubernetes Infrastructure Homelab",
 )
 - Built a 5-node Proxmox cluster with VMs running Kubernetes control planes and workers.
