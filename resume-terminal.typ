@@ -31,10 +31,21 @@
 == Work Experience
 
 #work(
+  title: "Full Stack Web Developer / Cloud Engineer",
+  location: "Dayton, OH",
+  company: "Awetomaton",
+  dates: dates-helper(start-date: "November 2025", end-date: "Present"),
+)
+- Worked on Full Stack Web project where I added features to a React front end, Golang api Backend, and postgres sql Database to better provide the customer insite into their data.
+- Created and fixed kubernetes deployments for a variety of applications
+- Managed application deployments using ArgoCD and Kustomize
+- Wrote and Implemented CI/CD pipelines using bash
+
+#work(
   title: "Software Engineer I",
   location: "Dayton, OH",
   company: "Altamira",
-  dates: dates-helper(start-date: "May 2024", end-date: "Present"),
+  dates: dates-helper(start-date: "May 2024", end-date: "November 2025"),
 )
 - Integrates computer vision R&D projects into scalable pipelines for various customers.
 - Helped lead an Internal Project to create a full stack web application that integrates a Computer Vision model to help a customer process their data. Stack included React TS, Flask, Golang, Docker, Docker Compose.
@@ -82,13 +93,10 @@
 
 #project(
   role: "Contributor",
-  name: "Mynk-db",
-  // dates: dates-helper(start-date: "", end-date: "Present"),
-  url: "github.com/Sheepheerd/mynk-db",
+  name: "Self Hosted Proxmox and Kubernetes Infarastructure Homelab",
 )
-- A syncthing clone written in C
-- This was largely my friends's project, however I helped write the API router logic in C for it.
-
+- Built a 5 node Proxmox Cluster and deployed VM's across the nodes with Kubernetes Control Planes and Workers
+- Implemented GitOps Workflow by deploying ArgoCD and using Kustomize to automatically deploy applications in a github orginization.
 == Extracurricular Activities
 
 #extracurriculars(
