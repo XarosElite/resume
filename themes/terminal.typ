@@ -46,7 +46,7 @@
     spacing: 0.55em,
   )
 
-  show heading.where(level: 2): it => block(above: 1.3em, below: 0.75em, sticky: true, grid(
+  show heading.where(level: 2): it => block(above: 1.15em, below: 0.7em, sticky: true, grid(
     columns: (auto, 1fr),
     column-gutter: 8pt,
     align: horizon,
