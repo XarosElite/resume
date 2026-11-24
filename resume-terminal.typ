@@ -86,7 +86,7 @@
   name: "Playhub",
   url: "github.com/XarosElite/playhub"
 )
-- Web app to deploy, monitor, and manage Video game servers inside docker containers. See a #link("https://www.jacobpoling.com/projects/playhub/")[demo] on my site.
+- Web app to deploy, monitor, and manage video game servers inside docker containers. See a #link("https://www.jacobpoling.com/projects/playhub/")[demo] on my site.
 - Built using a microservice architecture: React TypeScript frontend, FastAPI backend, Redis Queue worker for async container jobs, PostgreSQL, and a Docker socket proxy to restrict daemon access.
 - Added an in-browser interactive terminal for running game servers over WebSockets, live CPU/RAM monitoring, and automatic port assignment, backed by a pytest test suite.
 
