@@ -95,14 +95,6 @@
 - Built a 5-node Proxmox cluster with VMs running Kubernetes control planes and workers.
 - Implemented a GitOps workflow by deploying ArgoCD and using Kustomize to automatically deploy applications from a GitHub organization.
 
-== Extracurricular Activities
-
-#extracurriculars(
-  activity: "Cross Country/Track NCAA Division I Athlete",
-  dates: dates-helper(start-date: "Aug 2019", end-date: "May 2024"),
-)
-- Competed for Wright State University's Cross Country and Track team.
-
 == Certifications
 
 #certificates(
