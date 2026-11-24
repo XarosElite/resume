@@ -36,10 +36,10 @@
   company: "Awetomaton",
   dates: dates-helper(start-date: "November 2025", end-date: "Present"),
 )
-- Added features to a full stack web application with a React frontend, Golang API backend, and PostgreSQL database to give the customer better insight into their data.
-- Created and fixed Kubernetes deployments for a variety of applications.
-- Managed application deployments using ArgoCD and Kustomize.
-- Wrote and implemented CI/CD pipelines using Bash.
+- Develop features end to end across a full stack web application with a React frontend, Golang API backend, and PostgreSQL database, giving the customer better insight into their data.
+- Create and troubleshoot Kubernetes deployments for a variety of applications.
+- Manage application deployments through a GitOps workflow using ArgoCD and Kustomize.
+- Write and maintain CI/CD pipelines in Bash to automate building and deploying applications.
 
 #work(
   title: "Software Engineer I",
@@ -47,8 +47,9 @@
   company: "Altamira",
   dates: dates-helper(start-date: "May 2024", end-date: "November 2025"),
 )
-- Integrated computer vision R&D projects into scalable pipelines for various customers.
-- Helped lead an internal project to build a full stack web application that integrates a computer vision model to help a customer process their data. Stack included React TS, Flask, Golang, Docker, and Docker Compose.
+- Turned computer vision R&D prototypes into scalable data processing pipelines for multiple customers.
+- Helped lead an internal full stack web app that lets a customer process data with a computer vision model.
+- Built with React TypeScript, Flask, and Golang services, containerized with Docker and Docker Compose.
 
 #work(
   title: "Software Engineer Intern",
@@ -56,10 +57,10 @@
   company: "Altamira",
   dates: [#dates-helper(start-date: "May 2022", end-date: "August 2022"), #dates-helper(start-date: "May 2023", end-date: "August 2023")],
 )
-- Wrote Python scripts to format data for machine learning models.
-- Trained a Word2Vec machine learning model and integrated it into a web application to plot it.
-- Worked on a large Plotly Dash web application to visualize data for a customer.
-- Trained a Pix2Pix computer vision model to detect lines in noisy scenes.
+- Wrote Python scripts to transform and format datasets for training machine learning models.
+- Trained a Word2Vec model and integrated it into a web application to visualize its word embeddings.
+- Developed features in a large Plotly Dash web application used to visualize data for a customer.
+- Trained a Pix2Pix (conditional GAN) computer vision model to detect lines in noisy scenes.
 
 #work(
   title: "Cats Help Desk",
@@ -67,9 +68,8 @@
   company: "Wright State University",
   dates: dates-helper(start-date: "January 2020", end-date: "November 2021"),
 )
-- Resolved general help desk tickets.
-- Troubleshot problems with laptops, accounts, passwords, etc.
-- Built strong problem solving skills by helping students with their technical problems.
+- Resolved help desk tickets covering laptop hardware, software, account, and password issues.
+- Built troubleshooting and communication skills by walking students through technical fixes.
 
 #work(
   title: "IT Intern",
@@ -86,14 +86,17 @@
   name: "Playhub",
   url: "github.com/XarosElite/playhub"
 )
-- A Docker-based full stack game server manager.
-- See a #link("https://www.jacobpoling.com/projects/playhub/")[demo] and explanation on my site.
+- Web app to deploy, monitor, and manage Minecraft and Palworld servers. See a #link("https://www.jacobpoling.com/projects/playhub/")[demo] on my site.
+- Built a six-service Docker Compose architecture: React TypeScript frontend, FastAPI backend, Redis Queue worker for async container jobs, PostgreSQL, and a Docker socket proxy to restrict daemon access.
+- Added an in-browser interactive terminal for running game servers over WebSockets, live CPU/RAM monitoring, and automatic port assignment, backed by a pytest test suite.
 
 #project(
   name: "Self-Hosted Proxmox and Kubernetes Infrastructure Homelab",
 )
-- Built a 5-node Proxmox cluster with VMs running Kubernetes control planes and workers.
-- Implemented a GitOps workflow by deploying ArgoCD and using Kustomize to automatically deploy applications from a GitHub organization.
+- Built and operate a 5-node Proxmox cluster with VMs running Kubernetes control plane and worker nodes.
+- Set up a GitOps workflow with ArgoCD and Kustomize to auto-deploy apps from a GitHub organization.
+- Host personal projects including Playhub; ran Jenkins to build and package Playhub as a Debian installer.
+- Manage development environments declaratively with NixOS and Nix flakes for reproducible builds.
 
 == Certifications
 
@@ -106,4 +109,4 @@
 
 == Skills
 - *Programming Languages*: Python, Go, C/C++, Java, JavaScript/TypeScript, Bash, Godot, HTML/CSS
-- *Technologies*: Vim, UNIX, React, Flask, FastAPI, PostgreSQL, Git, Docker, Docker Compose, Kubernetes, ArgoCD, Kustomize, Nix, Proxmox
+- *Technologies*: Vim, UNIX, React, Flask, FastAPI, PostgreSQL, Git, Docker, Docker Compose, Redis, Kubernetes, ArgoCD, Kustomize, Jenkins, Nix, Proxmox
