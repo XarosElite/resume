@@ -24,7 +24,7 @@
   institution: "Wright State University",
   location: "Dayton, OH",
   dates: dates-helper(start-date: "Aug 2019", end-date: "May 2024"),
-  degree: "Bachelor's of Computer Science",
+  degree: "Bachelor's in Computer Science",
   consistent: true
 )
 
@@ -36,10 +36,10 @@
   company: "Awetomaton",
   dates: dates-helper(start-date: "November 2025", end-date: "Present"),
 )
-- Worked on Full Stack Web project where I added features to a React front end, Golang api Backend, and postgres sql Database to better provide the customer insite into their data.
-- Created and fixed kubernetes deployments for a variety of applications
-- Managed application deployments using ArgoCD and Kustomize
-- Wrote and Implemented CI/CD pipelines using bash
+- Added features to a full stack web application with a React frontend, Golang API backend, and PostgreSQL database to give the customer better insight into their data.
+- Created and fixed Kubernetes deployments for a variety of applications.
+- Managed application deployments using ArgoCD and Kustomize.
+- Wrote and implemented CI/CD pipelines using Bash.
 
 #work(
   title: "Software Engineer I",
@@ -47,21 +47,19 @@
   company: "Altamira",
   dates: dates-helper(start-date: "May 2024", end-date: "November 2025"),
 )
-- Integrates computer vision R&D projects into scalable pipelines for various customers.
-- Helped lead an Internal Project to create a full stack web application that integrates a Computer Vision model to help a customer process their data. Stack included React TS, Flask, Golang, Docker, Docker Compose.
+- Integrated computer vision R&D projects into scalable pipelines for various customers.
+- Helped lead an internal project to build a full stack web application that integrates a computer vision model to help a customer process their data. Stack included React TS, Flask, Golang, Docker, and Docker Compose.
 
 #work(
   title: "Software Engineer Intern",
   location: "Dayton, OH",
   company: "Altamira",
-  dates: [
-    #dates-helper(start-date: "May 2022", end-date: "August 2022"),
-    #dates-helper(start-date: "May 2023", end-date: "August 2023"),
-  ],)
-- Wrote basic python scripts to format data for machine learning models.
+  dates: [#dates-helper(start-date: "May 2022", end-date: "August 2022"), #dates-helper(start-date: "May 2023", end-date: "August 2023")],
+)
+- Wrote Python scripts to format data for machine learning models.
 - Trained a Word2Vec machine learning model and integrated it into a web application to plot it.
-- Worked with a large Plotly Dash Web application to visualize data for a customer.
-- Trained a Pix2Pix Computer Vision model to detect lines in a noisy scene.
+- Worked on a large Plotly Dash web application to visualize data for a customer.
+- Trained a Pix2Pix computer vision model to detect lines in noisy scenes.
 
 #work(
   title: "Cats Help Desk",
@@ -69,9 +67,9 @@
   company: "Wright State University",
   dates: dates-helper(start-date: "January 2020", end-date: "November 2021"),
 )
-- Solved general help desk tickets.
-- Troubleshooted problems with laptops, accounts, passwords, etc.
-- Learned a great deal of problem solving skills at this job by helping students with their technical problems.
+- Resolved general help desk tickets.
+- Troubleshot problems with laptops, accounts, passwords, etc.
+- Built strong problem solving skills by helping students with their technical problems.
 
 #work(
   title: "IT Intern",
@@ -79,7 +77,7 @@
   company: "Tri-Rivers Career Center",
   dates: dates-helper(start-date: "May 2019", end-date: "December 2019"),
 )
-- Helped maintain the school's network connectivity, troubleshoot internet / network issues, update and maintain student laptops, make ethernet cable runs from networking closets to devices.
+- Helped maintain the school's network connectivity, troubleshot internet and network issues, updated and maintained student laptops, and ran Ethernet cable from networking closets to devices.
 
 == Projects
 
@@ -88,22 +86,23 @@
   name: "Playhub",
   url: "github.com/XarosElite/playhub"
 )
-- A Docker based full stack game server manager
-- See a (#link("https://www.jacobpoling.com/projects/playhub/")[Demo]) and explenation on my site!
+- A Docker-based full stack game server manager.
+- See a #link("https://www.jacobpoling.com/projects/playhub/")[demo] and explanation on my site.
 
 #project(
   role: "Contributor",
-  name: "Self Hosted Proxmox and Kubernetes Infarastructure Homelab",
+  name: "Self-Hosted Proxmox and Kubernetes Infrastructure Homelab",
 )
-- Built a 5 node Proxmox Cluster and deployed VM's across the nodes with Kubernetes Control Planes and Workers
-- Implemented GitOps Workflow by deploying ArgoCD and using Kustomize to automatically deploy applications in a github orginization.
+- Built a 5-node Proxmox cluster with VMs running Kubernetes control planes and workers.
+- Implemented a GitOps workflow by deploying ArgoCD and using Kustomize to automatically deploy applications from a GitHub organization.
+
 == Extracurricular Activities
 
 #extracurriculars(
-  activity: "Cross County/Track NCAA Division I Athlete",
+  activity: "Cross Country/Track NCAA Division I Athlete",
   dates: dates-helper(start-date: "Aug 2019", end-date: "May 2024"),
 )
-- Competed collegially for Wright State University's Cross Country and Track team.
+- Competed for Wright State University's Cross Country and Track team.
 
 == Certifications
 
@@ -115,5 +114,5 @@
 )
 
 == Skills
-- *Programming Languages*: Python, C/C++, Java, JavaScript/Typescript, Godot, HTML/CSS
-- *Technologies*: Vim, UNIX, React, Flask, FastApi, Git, Docker, Docker Compose, Nix, Proxmox
+- *Programming Languages*: Python, Go, C/C++, Java, JavaScript/TypeScript, Bash, Godot, HTML/CSS
+- *Technologies*: Vim, UNIX, React, Flask, FastAPI, PostgreSQL, Git, Docker, Docker Compose, Kubernetes, ArgoCD, Kustomize, Nix, Proxmox
